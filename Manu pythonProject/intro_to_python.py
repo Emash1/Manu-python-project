@@ -56,3 +56,42 @@ if student1=="present" or student2=="present":
     print("pass")
 else:
     print("not pass")
+
+z=int(input("Enter a number:"))
+if  z%2==0:
+    print("even")
+else:
+    print("odd")
+
+#illustration of the elif
+b=5
+if b>3:
+    print("the value in b is greater than 3")
+elif b==3:
+    print("the value in b is equal to 3")
+else:
+    print("the value in b is less than 3")
+
+city=input("Which city are you from:" )
+if city=="Nairobi":
+    print("elligible")
+elif city=="Kisumu":
+    print("elligible")
+elif city=="Mombasa":
+    print("elligible")
+else:
+    print("inelligible")
+
+j=int(input("Enter a number:"))
+k=int(input("Enter a number:"))
+operator=int(input("Enter the operation:"))
+if operator==1:
+    print(j+k)
+elif operator==2:
+    print(j-k)
+elif operator==3:
+    print(j*k)
+elif operator==4:
+    print(j/k)
+else:
+    print("invalid")
